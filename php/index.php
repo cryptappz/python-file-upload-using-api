@@ -16,7 +16,7 @@ if($check !== false) {
 
 // Allow certain file formats ###
 if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-&& $imageFileType != "gif" ,  $imageFileType != "h264") {
+&& $imageFileType != "gif" && $imageFileType != "h264") {
   echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
   $uploadOk = 0;
 }
